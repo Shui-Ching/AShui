@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* CSS Document */
+html,body{font-family:'Crimson Text','\5FAE\8EDF\6B63\9ED1\9AD4','微軟正黑體';font-size: 14px}
+#container{padding:0;margin: 0 auto;}
+#container2{padding:0;margin: 0 auto;background:#242424;}
+img{max-width: 100%}
+.wrap{max-width: 1200px;margin: 0 auto;}
+.clean{overflow: hidden}
+p{font-size: 14px}
+h1, h2{font-size: 20px}
+.ti h1{text-align: center}
+#container2 .ti h1{color: #fff}
+
+/*mobile_btn*/
+button.menu-btn {display: none; position: fixed;z-index: 99}
+
+
+/*fix_right*/
+#fix_right{position: fixed;right: 5%;top: 50%;z-index: 99;}
+#fix_right a {color: #242424;font-size: 20px;}
+#container2 #fix_right a {color: #a0a0a0;}
+/*head*/
+.mobile_logo {text-align: center;padding: 50px 0;;display: none}
+.menu li{display: inline-block;margin: 0 10px;}
+.menu ul{text-align: center}
+.menu a{color: #242424}
+.menu li img {vertical-align: text-bottom;}
+.menu {padding: 50px 0;}
+.menu a.active{border-bottom:solid 1px #a0a0a0;color: #a0a0a0}
+#container2 .menu a {color: #fff;}
+.mobile_logo a {color: #242424;font-size: 24px}
+#container2 .mobile_logo a {color: #fff;font-size: 24px}
+li.logo a {font-size: 24px;}
+
+/*head hover*/
+.menu a {position: relative;display: inline-block;}
+.menu a:before, .menu a:after, .menu a div:before, .menu a div:after {content: ""; position: absolute;display: block;background: #242424;z-index: 4;transition: all .6s ease;}
+.menu a:before, .menu a:after {width: 0;height: 1px;}
+.menu a div:before, .menu a div:after {width: 4px;height: 0;}
+.menu a:before { top: -5px;left: 5%;}
+.menu a:hover:before, .menu a:hover:after {width: 90%;}
+.menu a:hover div:before, .menu a:hover div:after {height: 90%;}
+.menu a:after {bottom: -5px;right: 5%;}
+.menu a div:before {bottom: 5%;left: 5%;}
+.menu a div:after {top: 5%;right: 5%;}
+#container2 .menu a:before, #container2 .menu a:after, #container2 .menu a div:before, #container2 .menu a div:after {background: #fff;}
+
+
+/*footer*/
+#footer{border-top: solid 1px #242424;margin-top: 60px; }
+.copy{text-align: center;color: #242424;padding: 20px 0 50px 0}
+#container2 .copy {color: #fff;}
+#container2 #footer {border-top: solid 1px #fff;}
+
+/*main*/
+#main{padding: 0 1%}
+
+/*bread*/
+.breadnav li{display: inline-block}
+.breadnav ul{text-align: center}
+.breadnav a{color:#a0a0a0 }
+.breadnav li:last-child a{color: #242424}
+div#bread {margin-bottom: 10px;}
+#container2 .breadnav li:last-child a {color: #fff;}
+
+/*about*/
+.left_pic{float: left;width: 40%}
+.right_info{float: left;width: 50%}
+.info_b1{border-bottom: dashed 1px #a0a0a0 }
+.mydata li {padding-bottom: 10px;}
+.info_b2 p {line-height: 20px;}
+
+.history{border-top: dashed 1px #a0a0a0 }
+.history li {list-style-type: none;position: relative; width: 1px;margin: 0 auto;padding-top: 10px;background: #242424;}
+.history li::after {content: '';position: absolute;left: 50%;bottom: 0;transform: translateX(-50%);width: 15px;height: 15px;border-radius: 50%;background: inherit;transition: background .5s ease-in-out;}
+.history li div {transform: none;visibility: visible;opacity: 1;position: relative;bottom: 0;width: 400px;padding: 15px;}
+div#about_history {margin-top: 15px;}
+
+.year{font-size: 20px;text-align: center;padding: 20px 0}
+
+/*design*/
+#design_list li{float: left;width: 33.3%;text-align: center}
+#design_list ul{overflow: hidden}
+#design_list h2{font-size: 16px;}
+/*design hover*/
+.snip1572 {position: relative;display: inline-block;overflow: hidden; margin: 10px;min-width: 230px;max-width: 315px;width: 100%; color: #000000;text-align: left;font-size: 16px; background: #ffffff;}
+.snip1572 *, .snip1572:before, .snip1572:after {-webkit-box-sizing: border-box;box-sizing: border-box;-webkit-transition: all 0.4s ease;transition: all 0.4s ease;}
+.snip1572 img {max-width: 100%;backface-visibility: hidden;vertical-align: top;}
+.snip1572:before, .snip1572:after {content: '';background-color: #000;position: absolute;z-index: 1;top: 50%;left: 50%;opacity: 0;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.snip1572:before {width: 300px;height: 2px;}
+.snip1572:after {height: 300px;width: 2px;}
+.snip1572 figcaption {position: absolute;left: 0;bottom: 0;}
+.snip1572 h3 {font-weight: 400;padding: 8px 15px; margin: 0;opacity: 0;-webkit-transform: translateY(100%);transform: translateY(100%);}
+.snip1572 a {position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 1;}
+.snip1572:hover img, .snip1572.hover img {zoom: 1;filter: alpha(opacity=25); -webkit-opacity: 0.25;opacity: 0.25;}
+.snip1572:hover:before, .snip1572.hover:before, .snip1572:hover:after, .snip1572.hover:after {opacity: 1;}
+.snip1572:hover:before, .snip1572.hover:before {width: 50px;}
+.snip1572:hover:after, .snip1572.hover:after {height: 50px;}
+.snip1572:hover h3, .snip1572.hover h3 {-webkit-transform: translateY(0%);transform: translateY(0%);opacity: 1;}
+
+
+/*illustration*/
+.popup-gallery{margin-top: 30px}
+.popup-gallery li{float: left; width: 25%;text-align: center;margin-bottom: 20px;padding: 10px 0;}
+.popup-gallery ul{overflow: hidden;padding: 0}
+.popup-gallery li:nth-child(4n+1){clear:left}
+.popup-gallery li img {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.2);}
+.popup-gallery li img:hover {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.8);transition: all 0.5s ease-in-out}
+
+/*story*/
+.story_left_pic img {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.2);}
+.story_right_word h2{font-size: 16px}
+.story_right_word p{color:#a0a0a0;line-height: 20px; }
+div#story_list li{float: left;width: 46%;overflow: hidden;padding: 0 2%;margin-bottom: 20px;}
+div#story_list ul{overflow: hidden}
+.story_left_pic{float: left;width: 50%;text-align: center;} 
+.story_right_word{float: left;width: 50%} 
+.story_right_word a {border: solid 1px;color: #a0a0a0;padding: 0 10px;border-radius: 10px;}
+a.pl img{padding-left: 10px}
+.story_right_word a:hover{color: #242424;transition: all 0.5s ease-in-out}
+.story_right_word span {vertical-align: middle;}
+
+
+/*note*/
+div#note_list li{float: left;width: 25%;margin-bottom: 20px;text-align: center;padding: 10px 0;}
+div#note_list ul{overflow: hidden}
+div#note_list img {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.2);}
+div#note_list img:hover {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.8);transition: all 0.5s ease-in-out}
+
+/*note online/marketing/dw/js*/
+#online_page{font-size: 16px}
+#online_page li{float: left;width: 25%;text-align: center;margin-bottom: 30px;padding: 10px 0}
+#online_page a span {padding-left: 10px;color: #a0a0a0;vertical-align: middle}
+#online_page a:hover span {color: #fff;transition: all 0.5s ease-in-out}
+#online_page a{color: #a0a0a0;}
+#online_page a:hover{color: #fff;transition: all 0.5s ease-in-out}
+#online_page ul{overflow: hidden}
+
+/*note ps/html/icm/css*/
+#ps_row{font-size: 16px}
+#ps_row li{color: #a0a0a0;text-align: left;margin-bottom: 20px;border-bottom: dashed 1px #a0a0a0;padding: 0 0 10px 0;line-height: 20px}
+#ps_row a span {padding-left: 10px;color: #a0a0a0;vertical-align: middle}
+#ps_row a:hover span {color: #fff;transition: all 0.5s ease-in-out}
+#ps_row li a{color: #a0a0a0;}
+#ps_row li a:hover{color: #fff;transition: all 0.5s ease-in-out}
+#ps_row span{color: #fff;margin-right: 10px}
+
+/*RWD*/
+@media screen and (max-width : 1100px) {
+/*about*/	
+.right_info {padding-left: 1%;}
+}
+
+@media screen and (max-width : 1000px) {
+/*design*/
+#design_list li{width: 50%}	
+/*note*/
+div#note_list li{width: 33.3%;}
+}
+
+@media screen and (max-width : 900px) {
+/*about*/	
+.right_info {width: 59%;}
+/*story*/	
+div#story_list li{width: 100%;padding: 0}	
+.story_left_pic {width: 40%;}
+}
+
+@media screen and (max-width : 800px) {
+/*illutration*/	
+.popup-gallery li {width: 50%;}
+.popup-gallery li:nth-child(2n+1) {clear: left;}
+}
+
+@media screen and (max-width : 767px) {
+/*head*/	
+.mobile_logo{display: block;}	
+button.menu-btn {display: block;}
+.menu {display: none;}
+.pushy-content .logo{display: none}	
+/*bread*/	
+.breadnav ul {text-align: center;}		
+/*about*/
+.left_pic {width: 100%;text-align: center;}
+.right_info {width: 100%;}
+/*note*/
+div#note_list li{width: 50%;}
+/*note online*/
+#online_page li{width: 50%}
+}
+
+@media screen and (max-width : 700px) {
+/*design*/
+#design_list li{width: 100%}	
+}
+
+
+@media screen and (max-width : 500px) {
+/*story*/
+.story_left_pic { width: 100%;}	
+.story_right_word {width: 100%;padding: 10px 0;text-align: center;}	
+/*note*/
+div#note_list li{width: 100%;}
+}
+
+
+@media screen and (max-width : 450px) {
+/*illutration*/	
+.popup-gallery li {width: 100%;}	
+}
