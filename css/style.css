@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-html,body{font-family:'Crimson Text','\5FAE\8EDF\6B63\9ED1\9AD4','微軟正黑體';font-size: 14px}
+html, body , #container{font-family:'Crimson Text','\5FAE\8EDF\6B63\9ED1\9AD4','微軟正黑體';font-size: 14px}
 #container{padding:0;margin: 0 auto;}
 #container2{padding:0;margin: 0 auto;background:#242424;}
 img{max-width: 100%}
