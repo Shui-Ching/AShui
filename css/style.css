@@ -17,9 +17,10 @@ button.menu-btn {display: none; position: fixed;z-index: 99}
 
 /*fix_right*/
 #fix_right{position: fixed;right: 5%;top: 50%;z-index: 99;}
-#fix_right a {color: #242424;font-size: 250px;}
+#fix_right a {color: #242424;font-size: 25px;}
 div#fix_right li {margin-bottom: 10px;}	
 #container2 #fix_right a {color: #a0a0a0;}
+
 /*head*/
 .mobile_logo {text-align: center;padding: 50px 0;;display: none}
 .menu li{display: inline-block;margin: 0 10px;}
