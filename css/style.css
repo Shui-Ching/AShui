@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-html, body , #container, #container2{font-family:'Crimson Text','\5FAE\8EDF\6B63\9ED1\9AD4','微軟正黑體';font-size: 14px}
+html, body, #container, #container2{font-family:'Crimson Text','\5FAE\8EDF\6B63\9ED1\9AD4','微軟正黑體';font-size: 14px}
 #container{padding:0;margin: 0 auto;}
 #container2{padding:0;margin: 0 auto;background:#242424;}
 img{max-width: 100%}
@@ -17,10 +17,11 @@ button.menu-btn {display: none; position: fixed;z-index: 99}
 
 /*fix_right*/
 #fix_right{position: fixed;right: 5%;top: 50%;z-index: 99;}
-#fix_right a {color: #242424;font-size: 25px;}
+#fix_right a {color: #a0a0a0;font-size: 25px;}
+#fix_right a:hover {color: #242424;font-size: 25px;transition: all 0.5s ease-in-out}
 div#fix_right li {margin-bottom: 10px;}	
 #container2 #fix_right a {color: #a0a0a0;}
-
+#container2 #fix_right a:hover{color: #fff;transition: all 0.5s ease-in-out}
 /*head*/
 .mobile_logo {text-align: center;padding: 50px 0;;display: none}
 .menu li{display: inline-block;margin: 0 10px;}
@@ -122,6 +123,8 @@ a.pl img{padding-left: 10px}
 .story_right_word a:hover{color: #242424;transition: all 0.5s ease-in-out}
 .story_right_word span {vertical-align: middle;}
 
+/*blog*/
+.date{text-align: center;margin: 20px 0;border-bottom: dashed 1px #a0a0a0;padding-bottom: 10px}
 
 /*note*/
 div#note_list li{float: left;width: 25%;margin-bottom: 20px;text-align: center;padding: 10px 0;}
@@ -200,7 +203,7 @@ div#note_list li{width: 50%;}
 @media screen and (max-width : 500px) {
 /*story*/
 .story_left_pic { width: 100%;}	
-.story_right_word {width: 100%;padding: 10px 0;text-align: center;}	
+.story_right_word {width: 100%;padding: 10px 0;text-align: left;border-bottom:solid 1px #a0a0a0}	
 /*note*/
 div#note_list li{width: 100%;}
 

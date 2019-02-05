@@ -1,3 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+.index_ti h1{text-align: center;font-size: 14px;color: #a0a0a0}
+#banner h2{text-align: center;font-size: 14px;color: #a0a0a0}
+#banner h2 span{font-weight: bold;color: #242424}
 .fade img{ margin: 0 auto}
