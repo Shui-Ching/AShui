@@ -124,7 +124,7 @@ a.pl img{padding-left: 10px}
 .story_right_word span {vertical-align: middle;}
 
 /*blog*/
-.date{text-align: center;margin: 20px 0;border-bottom: dashed 1px #a0a0a0;padding-bottom: 10px}
+.date{text-align: center;margin: 20px auto;border-bottom: dashed 1px #a0a0a0;padding-bottom: 10px}
 
 /*note*/
 div#note_list li{float: left;width: 25%;margin-bottom: 20px;text-align: center;padding: 10px 0;}
