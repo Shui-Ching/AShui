@@ -34,6 +34,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="css/slick.css" rel="stylesheet" type="text/css"> 
 <link href="css/slick-theme.css" rel="stylesheet" type="text/css">  
 <!--slick star--> 
+<!--lightbox star-->
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+<!--lightbox end-->
 <link href="css/fonts.css?20190205-001" rel="stylesheet" type="text/css">
 <link href="css/style.css?20190205-001" rel="stylesheet" type="text/css">
 <link href="css/index.css?20190205-001" rel="stylesheet" type="text/css">
@@ -62,6 +65,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <ul>
 <li><a href="#" id="goTop"><span class="icon-gotop"></span></a></li>
 <li><a href="mailto:weitewater@gmail.com"><span class="icon-mail"></span></a></li>	
+<li>
+<a class="image-popup-vertical-fit" href="images/all/qr.jpg"	 title="www.ashui1986.com">
+	<span class="icon-qr"></span>
+</a>
+</li>
+
 </ul>		
 </div>
 
@@ -131,7 +140,70 @@ $('.fade').slick({
   autoplaySpeed: 2000,
 });
 </script>
+<!--lightbox star-->
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Shui-Ching, Cheng</small>';
+			}
+		}
+	});
+});
+</script>
+<!--lightbox end-->
+<!--lightbox one star-->
+<script type="text/javascript">	
+$(document).ready(function() {
 
+	$('.image-popup-vertical-fit').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+		
+	});
+
+	$('.image-popup-fit-width').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		image: {
+			verticalFit: false
+		}
+	});
+
+	$('.image-popup-no-margins').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		closeBtnInside: false,
+		fixedContentPos: true,
+		mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+		image: {
+			verticalFit: true
+		},
+		zoom: {
+			enabled: true,
+			duration: 300 // don't foget to change the duration also in CSS
+		}
+	});
+
+});
+</script>
+<!--lightbox one end-->
 <!--<script>
   (function() {
     var cx = '011958800931872426108:j6fkjhf4vww';

@@ -69,7 +69,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div id="fix_right">
 <ul>
 <li><a href="#" id="goTop"><span class="icon-gotop"></span></a></li>
-<li><a href="mailto:weitewater@gmail.com"><span class="icon-mail"></span></a></li>	
+<li><a href="mailto:weitewater@gmail.com"><span class="icon-mail"></span></a></li>
+<li>
+<a class="image-popup-vertical-fit" href="images/all/qr.jpg"	 title="www.ashui1986.com">
+	<span class="icon-qr"></span>
+</a>
+</li>	
 </ul>		
 </div>
 
@@ -174,7 +179,46 @@ $(document).ready(function() {
 });
 </script>
 <!--lightbox end-->
- 
+ <!--lightbox one star-->
+<script type="text/javascript">	
+$(document).ready(function() {
+
+	$('.image-popup-vertical-fit').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+		
+	});
+
+	$('.image-popup-fit-width').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		image: {
+			verticalFit: false
+		}
+	});
+
+	$('.image-popup-no-margins').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		closeBtnInside: false,
+		fixedContentPos: true,
+		mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+		image: {
+			verticalFit: true
+		},
+		zoom: {
+			enabled: true,
+			duration: 300 // don't foget to change the duration also in CSS
+		}
+	});
+
+});
+</script>
+<!--lightbox one end-->
 <!--design hover-->
 <script type="text/javascript">	 
 $(".hover").mouseleave(
