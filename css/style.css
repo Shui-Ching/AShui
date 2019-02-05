@@ -201,6 +201,9 @@ div#note_list li{width: 50%;}
 .story_right_word {width: 100%;padding: 10px 0;text-align: center;}	
 /*note*/
 div#note_list li{width: 100%;}
+/*fix_right*/	
+#fix_right a {font-size: 25px;}	
+div#fix_right li {margin-bottom: 10px;}	
 }
 
 
