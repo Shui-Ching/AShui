@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+body{ overflow:hidden}
+h1 , h2 , h3 , h4{ font-family:"MyriadPro",Arial,\5FAE\8EDF\6B63\9ED1\9AD4,Microsoft JhengHei,sans-serif ; font-weight:bold; font-style:normal}
+#index_banner .slides li{ position:relative}
+
+#index_banner li.banner1 .slogan{ top:22%; left:10%}
+#index_banner li.banner2 .slogan{ top:45%; left:55%}
+#index_banner li.banner3 .slogan{ top:25%; left:40%}
+#index_banner li .slogan{ position:absolute; }
+#index_banner li .slogan{ opacity:0; transition:all 1.5s ease-in-out; margin-left:-100px}
+#index_banner li.flex-active-slide .slogan{ opacity:1;margin-left:0  }
+	
+
+.company{ position:relative}
+.in_news{ position:absolute;top:-280px; z-index:10;width:100%}
+.in_news_box{width:1000px;margin:0 auto;padding-left:150px }
+.in_news_box .pic{ float:left;width:390px; background:#a8b237;padding:15px; transition:all 0.3s ease-in-out;-webkit-animation-name: fadeInLeft; animation-name: fadeInLeft; }
+.in_news_box .pic:hover{background:#feaf15}
+.in_news_box .pic h2{color:#fff; margin-bottom:10px; font-size:28px}
+.in_news_box .info{width:calc(100% - 390px); float:left;padding:80px 5px 0 20px; font-size:16px; position:relative;-webkit-animation-name: fadeInRight; animation-name: fadeInRight;}
+.in_news_box .info *{ transition:all 0.5s ease-in-out }
+.in_news_box .info a{width:100%;height:100%; position:absolute; left:0; top:0}
+.in_news_box .info h2{ color:#00669a; font-size:30px}
+.in_news_box .info:hover h2{color:#feaf15}
+.in_news_box .info h4{ font-weight:normal; font-size:25px;margin-bottom:10px;margin-top: 10px;}
+.in_news_box .info:hover h4{ color:#111464}
+.in_news_box .info .date{margin-bottom:15px;line-height: 24px;}
+.in_news_box .info p{ font-weight:bold; color:#1d2088; }
+.in_news_box .info p span{ font-weight:normal; background:#f39700;color:#fff;padding:2px 5px; border-radius:3px}
+.in_news_box .info:hover p span{ background:#1d2088}
+.in_about{ background:url(../images/index/ab_bg.jpg) repeat-x #a8b237}
+.in_about li{ display:inline-table;width:50%; vertical-align:top;height:100%}
+.in_about li.company_pic{width:55%;-webkit-animation-name: fadeInLeft; animation-name: fadeInLeft; vertical-align:bottom}
+.in_about li.ab_info{width:44.5%; background:#a8b237;margin-top:150px;padding:60px 0 0 20px;-webkit-animation-name: fadeInRight; animation-name: fadeInRight;}
+.in_about li.ab_info>div{width:420px; position:relative}
+.in_about li.ab_info h2{ color:#fff; font-size:42px; font-weight:normal; text-transform:uppercase;margin-bottom:25px}
+.in_about li.ab_info p{ line-height:180%;margin-bottom:30px; font-size:15px;color:#221815}
+.in_about li.ab_info a{color:#fff; text-align:center; position:relative}
+.in_about li.ab_info a:before{ content:"MORE"; position:absolute; z-index:5;WIDTH:100%;top:37px; left:16px; font-size:20px }
+.in_btn{ position:absolute;right:40px}
+.in_btn:before{width:90px;height:90px; content:""; display:block;-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg); background:#00669a;  position:absolute; z-index:1; transition:all 0.3s ease-in-out}
+.in_btn:hover:before{background:#feaf15}
+
+.in_pro{ /*background:url(../images/index/in_pr_bg.jpg) repeat-x;*/padding-bottom:30px}	
+.in_pro_zone{width:1200px;margin:0 auto ;padding:80px 0 0}
+.in_pro_zone h2{ text-align:center;color:#373737;  font-weight:normal;margin-bottom:50px}
+.in_pro_zone h3{ font-size:30px; font-family:"Raleway",Arial,\5FAE\8EDF\6B63\9ED1\9AD4,Microsoft JhengHei,sans-serif ;font-weight:500; text-transform:uppercase; line-height:120%}
+.in_pro_zone h4{margin-bottom:10px; font-size:20px;font-weight:500;}
+.in_pro_zone p{ line-height:160%}
+.in_pro_zone .pic{ position:relative}
+.in_pro_zone .pro1 , .in_pro_zone .pro2 ,.in_pro_zone .pro3{ overflow:hidden}
+.in_pro_zone .pro1{ float:right;width:399px;height:600px; background:#D8D8D8;margin-left:1px; -webkit-animation-name: fadeInRight; animation-name: fadeInRight; -webkit-animation-timing-function:ease-in-out; animation-timing-function: ease-in-out; -webkit-animation-delay:0.5s; animation-delay:0.5s}
+
+
+.in_pro_zone .pro2 , .in_pro_zone .pro3{width:calc(100% - 400px);height:300px; background:#fff;-webkit-animation-name: fadeInLeft; animation-name: fadeInLeft; -webkit-animation-timing-function:ease-in-out; animation-timing-function: ease-in-out; }
+
+.in_pro_zone .pro2 {margin-bottom:1px}
+
+.in_pro_zone .pro3 {margin-bottom:1px; -webkit-animation-delay:0.2s; animation-delay:0.2s}
+
+
+
+.in_pro_zone .pro2 .pic{width:300px; float:left;
+background: rgb(234,234,234);
+background: -moz-linear-gradient(-45deg, rgba(234,234,234,1) 11%, rgba(255,255,255,1) 60%); 
+background: -webkit-linear-gradient(-45deg, rgba(234,234,234,1) 11%,rgba(255,255,255,1) 60%); 
+background: linear-gradient(135deg, rgba(234,234,234,1) 11%,rgba(255,255,255,1) 60%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=1 ); height:300px}
+
+.in_pro_zone .pro2 .info{width:calc(100% - 300px);height:300px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,eaeaea+74 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 1%, rgba(234,234,234,1) 74%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 1%,rgba(234,234,234,1) 74%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 1%,rgba(234,234,234,1) 74%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea',GradientType=1 ); float:right;padding:50px 20px 20px 50px;
+background: #8ec54a;
+}
+
+.in_pro_zone .pro2 .pic .wow{top:33px; right:-30px; position:absolute;-webkit-animation-name: fadeInLeft; animation-name: fadeInLeft; -webkit-animation-timing-function:ease-in-out; animation-timing-function: ease-in-out; -webkit-animation-delay:0.2s; animation-delay:0.2s}
+.in_pro_zone .pro2 .pic .wow img{width:339px;height:267px;max-width:none}
+.in_pro_zone .pro2 .info h3{color:#fff;  text-transform:uppercase;margin:0 100px 15px 0; }
+
+.in_pro_zone .pro3 .pic{width:360px; float:right;height:300px;
+background: rgb(234,234,234); 
+background: -moz-linear-gradient(top, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 71%, rgba(234,234,234,1) 100%); 
+background: -webkit-linear-gradient(top, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 71%,rgba(234,234,234,1) 100%); 
+background: linear-gradient(to bottom, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,1) 71%,rgba(234,234,234,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#eaeaea',GradientType=0 ); }
+.in_pro_zone .pro3 .pic .wow{ position:absolute; left:-50px;-webkit-animation-name: fadeInLeft; animation-name: fadeInLeft; -webkit-animation-timing-function:ease-in-out; animation-timing-function: ease-in-out; -webkit-animation-delay:0.3s; animation-delay:0.3s;top: 32px}
+.in_pro_zone .pro3 .info{width:calc(100% - 360px); float:left; background:#feda15;padding:50px 40px 20px 25px;height:300px}
+
+.in_pro_zone .pro3 .info h3{margin:0 50px 15px 0;color:#fff}
+
+.in_pro_zone .pro1 .pic{width:100%;height:357px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+1,ffffff+48 */
+background: rgb(234,234,234); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(234,234,234,1) 1%, rgba(255,255,255,1) 48%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(234,234,234,1) 1%,rgba(255,255,255,1) 48%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(234,234,234,1) 1%,rgba(255,255,255,1) 48%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+
+.in_pro_zone .pro1 .pic .wow{ position:absolute;right:0;-webkit-animation-name: fadeInRight; animation-name: fadeInRight; -webkit-animation-timing-function:ease-in-out; animation-timing-function: ease-in-out; -webkit-animation-delay:0.5s; animation-delay:0.5s}
+.in_pro_zone .pro1 .info{background:#feaf15;height:243px;padding:30px 20px}
+.in_pro_zone .pro1 .info h3{color:#fff;margin-bottom:15px}
+.in_pro_zone  a{ position:absolute;width:100%;height:100%; display:block; left:0;top:0; background:rgba(255,255,255,0.00)}
+.in_pro_zone>div{ position:relative}
+.in_pro_zone .info , .in_pro_zone .wow{ transition:all 0.3s ease-in-out}
+.in_pro_zone .pro1:hover .info{ /*box-shadow:inset 3px 4px 13px 0px rgba(112, 121, 140, 0.83);*/border: solid 7px #fff;border-style: double;}
+.in_pro_zone .pro2:hover .info{/*box-shadow: inset 1px 2px 13px 1px rgb(199, 199, 199);*/border: solid 7px #fff;border-style: double;}
+.in_pro_zone .pro3:hover .info {/* box-shadow:inset -1px 5px 13px 1px rgba(115, 115, 115, 0.83);*/border: solid 7px #fff;border-style: double;}
+.in_pro_zone .pro1:hover .wow{ right:15px}
+.in_pro_zone .pro2:hover .wow{ right:-45px;}
+.in_pro_zone .pro3:hover .wow{ left:-65px}
+.flexslider2 { display:none}
+.in_about li.company_pic img.ab_pic2 , .in_btn2{ display:none}
+.sb-btn2{ display:none}
+
+
+@media  (max-width : 1850px) {
+.in_news{top:-16%}	
+.in_about li.company_pic{width:750px}
+.in_about li.ab_info{ width: calc(100% - 750px); margin-top: 80px; margin-left: -4px;padding-top:30px;padding-bottom:30px}
+.in_about{ background-position:0 -70px}
+.in_btn{bottom:-5px}
+.in_about li.ab_info p{margin-bottom:20px}
+#index_banner li .slogan img{ width:90%;max-width:none }
+}
+
+@media  (max-width : 1280px) {
+.in_news{top:-15%}
+#index_banner li.banner1 .slogan{ top:33%; left:15%}
+#index_banner li.banner2 .slogan{ top:43%; left:50%}
+#index_banner li.banner3 .slogan{ top:20%; left:35%}
+#index_banner li .slogan img{ width:80%;max-width:none }
+.in_about li.company_pic{width:700px;  vertical-align:bottom; line-height:0}
+
+.in_about li.ab_info{ width: calc(100% - 700px); margin-left: -4px; margin-top: 100px;padding-right:30px}
+.in_about{ background:none}
+.in_about li.ab_info>div{width:100%}
+.in_btn{right:10px;width:75px; height:75px; bottom: -88px;}
+.in_btn:before{width:100%;height:100%}
+.in_about li.ab_info a:before {
+    content: "MORE";
+    position: absolute;
+    z-index: 5;
+    font-size: 20px;
+    line-height: 75px;
+    text-align: center;
+    width: 75px;
+	top:0; left:0}
+}
+
+@media  (max-width : 1200px) {
+.in_news{top:-14%}
+.in_about li.ab_info h2 , .in_pro_zone h2{ font-size:38px;margin-bottom:20px}
+.in_about li.ab_info p{ line-height:160%}
+#index_banner li.banner1 .slogan{ top:33%; left:15%}
+#index_banner li.banner2 .slogan{ top:50%; left:50%}
+#index_banner li.banner3 .slogan{ top:20%; left:35%}
+#index_banner li .slogan img{ width:65%;max-width:none }
+.in_pro_zone{width:100%;padding: 50px 20px  20px}
+.in_pro_zone .pro2 .info h3 , .in_pro_zone .pro3 .info h3 , .in_pro_zone .pro1 .info h3{margin:0 0 10px 0; font-size:28px}
+
+
+.in_about li.company_pic{width:600px;  vertical-align:bottom; line-height:0; overflow:hidden;position:relative}
+.in_about li.company_pic img{ width:700px;max-width:700px;}
+.in_about li{ display:inline-block}
+.in_about li.ab_info{ width: calc(100% - 600px); margin-left: -4px; margin-top: 100px;padding-right:30px}
+.in_news_box .pic{width:350px}
+}
+
+@media  (max-width : 1050px) {
+
+.in_about li.company_pic{width:500px}
+.in_about li.ab_info{width:calc(100% - 500px);margin-top:120px}
+.in_news_box .pic h2{ font-size:25px}
+.in_pro_zone  .wow img{max-width:none}
+.in_about li.ab_info h2 , .in_pro_zone h2{ font-size:30px}
+.in_pro_zone .pro2 .info h3, .in_pro_zone .pro3 .info h3, .in_pro_zone .pro1 .info h3{ font-size:25px}
+.in_pro_zone .pro2 .pic , .in_pro_zone .pro2 .info ,.in_pro_zone .pro3 .pic  ,.in_pro_zone .pro3 .info{height: 275px;}
+.in_pro_zone .pro1{width:349px;height:550px}
+.in_pro_zone .pro2, .in_pro_zone .pro3 { width: calc(100% - 350px);height:275px}
+.in_pro_zone .pro1 .info{padding:30px 15px 15px}
+.in_pro_zone .pro1 .pic{height:290px}
+.in_pro_zone .pro1 .info{height:260px}
+.in_pro_zone .pro1 .pic .wow img{width: 316px;
+    height: 290px;
+}
+.in_pro_zone .pro2 .pic{width:250px}
+.in_pro_zone .pro2 .info { width: calc(100% - 250px);padding:30px 20px 15px 35px}
+.in_pro_zone .pro3 .pic{width:300px;height:275px}
+.in_pro_zone .pro3 .info { width: calc(100% - 300px);padding:40px 15px 15px }
+.in_pro_zone .pro3 .pic .wow img{width:350px;height:254px}
+.in_about li.ab_info a:before{ font-size:18px}
+#index_banner li.banner1 .slogan{ top:33%; left:10%}
+#index_banner li.banner2 .slogan{ top:50%; left:50%}
+#index_banner li.banner3 .slogan{ top:30%; left:30%}
+#index_banner li .slogan img{ width:60%; }
+.in_news{top:-12.5%}
+.in_news_box{width:90%;padding:0 15px;margin:0 auto}
+.in_news_box .info{padding-top:70px}
+}
+@media  (max-width : 1000px) {
+#header{ position:absolute}
+}
+@media  (max-width : 900px) {
+.in_news{ position:relative;}
+.in_news_box{margin-top:-150px}
+.in_about li.ab_info{margin-top:30px}
+.in_about{ clear:both;margin-top:80px}
+.in_about li.company_pic{width:450px; position:relative}
+.in_about li.ab_info{width:calc(100% - 450px)}
+.in_news_box .info { width: calc(100% - 350px);}
+.in_about li.company_pic img{ position:relative;margin-left:-100px}
+.in_about li.ab_info p{ line-height:150%}
+.in_about li.ab_info{margin-top:60px}
+
+.in_pro_zone .pro1 , .in_pro_zone .pro2 , .in_pro_zone .pro3{width:100%; float:none;height:280px;webkit-animation-delay: 0s;animation-delay: 0s;margin-bottom:1px}
+.in_pro_zone .pro1 .info , .in_pro_zone .pro2 .info ,.in_pro_zone .pro3 .info , .in_pro_zone .pro1 .pic ,.in_pro_zone .pro2 .pic ,.in_pro_zone .pro3 .pic {height:280px}
+.in_pro_zone .pro1 .info , .in_pro_zone .pro2 .info ,.in_pro_zone .pro3 .info{padding:30px}
+.in_pro_zone .pro2 .info h3, .in_pro_zone .pro3 .info h3, .in_pro_zone .pro1 .info h3{ font-size:35px}
+.in_pro_zone h4{ font-size:25px}
+.in_pro_zone .pro1 .pic{width:350px; float:right}
+.in_pro_zone .pro1 .info{width:calc(100% - 350px); float:left}
+.in_pro_zone .pro2 .pic{width:300px}
+.in_pro_zone .pro2 .info{width:calc(100% - 300px)}
+.in_news_box{width:90%;margin-top: -130px;}
+.ft_nav1{width:25%}
+.ft_nav2{width:35%}
+.in_news_box .info{ font-size:15px;}
+.in_news_box .info h2{ font-size:25px}
+.in_news_box .info h4{ font-size:20px}
+.in_news_box{width:100%}
+
+
+}
+@media  (max-width : 800px) {
+#index_banner li.banner1 .slogan{ top:33%; left:10%}
+#index_banner li.banner2 .slogan{ top:55%; left:55%}
+#index_banner li.banner3 .slogan{ top:30%; left:40%}
+#index_banner li .slogan img{width:50%}
+.in_pro_zone .pro2 .info h3, .in_pro_zone .pro3 .info h3, .in_pro_zone .pro1 .info h3{ font-size:28px}
+.in_pro_zone h4{ font-size:20px}
+.in_about li.company_pic{width:380px; position:relative}
+.in_about li.ab_info{width:calc(100% - 380px)}
+.in_about li.ab_info h2, .in_pro_zone h2{ font-size:28px}
+.in_about li.ab_info h2{margin-bottom:15px}
+.in_pro_zone h2{margin-bottom:30px}
+ .in_pro_zone .pro3{    -webkit-animation-name: fadeInRight;animation-name: fadeInRight;}
+ .in_btn{width:65px;height:65px}
+ .in_about li.ab_info a:before{width:65px;height:65px; line-height:65px; font-size:15px}
+ .flexslider2{ display:block}
+.flexslider1{ display:none}
+.in_news_box{margin-top:20px}
+#index_banner li .slogan{width:40%}
+#index_banner li .slogan img{width:100%}
+.in_about li.ab_info{margin-top:30px}
+.in_news_box .pic h2{ font-size:20px; font-weight:normal}
+.in_news_box .info{padding:15px}
+}
+
+@media  (max-width : 700px) {
+
+.in_about li.company_pic img.ab_pic1{ display:none}
+.in_about li.company_pic img.ab_pic2{ display:block}
+
+.in_about li{ display:block}
+.in_about li.company_pic{width:100%;margin:0}
+.in_about li.company_pic img{margin:0; width:100%;max-width:100%}
+.in_about li.ab_info{width:100%;margin:0}
+.in_about li.ab_info{ background:#fff}
+.in_about li.ab_info h2{ text-align:center}
+.in_pro_zone .pro1 .pic{width:300px}
+
+.in_pro_zone .pro1 .info {width: calc(100% - 300px);}
+.in_pro_zone .pro2 .info h3, .in_pro_zone .pro3 .info h3, .in_pro_zone .pro1 .info h3{ font-size:25px}	
+
+.in_news_box .pic{width:50%}
+.in_news_box .info{width:50%}
+in_about{padding-top:20px}
+}
+@media  (max-width : 650px) {
+
+	#header{ position:relative; background:#fff}
+	#index_banner{margin-top:-20px}
+	.in_btn{ display:none}
+	.in_btn2{ display:block; text-align:center}
+	.in_btn2 a{padding:5px 10px;color:#fff; background:#00669a}
+	.in_about li.ab_info a:before{width:auto;height:auto}
+	.in_about li.ab_info a:before{ content:""}
+	.in_pro_zone .pro2 .info h3, .in_pro_zone .pro3 .info h3, .in_pro_zone .pro1 .info h3{ font-size:20px}
+	.in_pro_zone .pro1, .in_pro_zone .pro2, .in_pro_zone .pro3{height:240px}
+	.in_pro_zone .pro1 .pic .wow img{width: 235px;
+    height: 225px;}
+	.in_pro_zone .pro1 .pic{width:210px}
+	.in_pro_zone .pro1 .info { width: calc(100% - 210px);}
+	.in_pro_zone .pro2 .pic .wow img{width:240px;height:189px}
+	.in_pro_zone .pro2 .pic{width:190px}
+	.in_pro_zone .pro2 .info { width: calc(100% - 190px);}
+	.in_pro_zone .pro3 .pic .wow img { width: 250px;height:181px}
+	.in_pro_zone .pro3 .pic{width:200px; }
+	.in_pro_zone .pro3 .info { width: calc(100% - 200px);}
+	.in_pro_zone .pro1 .info, .in_pro_zone .pro2 .info, .in_pro_zone .pro3 .info, .in_pro_zone .pro1 .pic, .in_pro_zone .pro2 .pic, .in_pro_zone .pro3 .pic{height:240px}
+	.in_pro_zone .pro2 .info{padding-left:38px}
+	.in_pro_zone .pro2 .pic .wow {top: 51px;}
+	.in_pro_zone .pro3 .pic .wow {top: 59px;}
+	.in_pro_zone .pro1 .pic .wow {top: 15px;}
+}
+@media  (max-width : 600px) {
+.in_pro_zone .pro1 .info, .in_pro_zone .pro2 .info, .in_pro_zone .pro3 .info{padding:20px}
+.in_pro_zone .pro2 .info{padding-left:38px}
+.in_pro_zone p{ line-height:120%}
+.in_news_box .pic{padding:10px}
+.in_news_box .info{padding:0 10px; font-size:14px}
+.in_news_box .info h4{ font-size:18px}
+.in_about li.ab_info p{ font-size:14px; line-height:130%;margin-bottom:20px; text-align:center}
+.in_pro_zone h4{ font-size:16px;margin-bottom:10px}
+.in_pro_zone p{ font-size:14px}
+.in_btn2 a{margin-top:20px; font-size:13px}
+
+}
+
+@media  (max-width : 480px) {
+	.in_pro_zone .pro1, .in_pro_zone .pro2, .in_pro_zone .pro3{ height:auto}
+.in_pro_zone .pro1 .info, .in_pro_zone .pro2 .info, .in_pro_zone .pro3 .info, .in_pro_zone .pro1 .pic, .in_pro_zone .pro2 .pic, .in_pro_zone .pro3 .pic{ float:none;width:100%;height:230px}
+.in_pro_zone{width:80%;margin:0 auto} 
+.in_pro_zone .pro3>div:first-child{ display:none}	
+.in_pro_zone .pro2 .info h3, .in_pro_zone .pro3 .info h3, .in_pro_zone .pro1 .info h3{ font-size:23px}
+.in_pro_zone h4{ font-size:18px}
+.in_pro_zone .pro1 .pic .wow{right:60px;top: 7px;}
+.in_pro_zone .pro1:hover .pic .wow{right:30px}
+.in_pro_zone .pro1 .pic .wow img{width:230px;height:223px}
+.in_pro_zone .pro2 .pic .wow{right:0; left:12px;top: 9px;}
+.in_pro_zone .pro2:hover .pic .wow{right:0; left:0px}
+.in_pro_zone .pro2 .pic .wow img{width:280px;height:221px}
+.in_pro_zone .pro3 .pic .wow{left:60px;top:13px}
+.in_pro_zone .pro3:hover .pic .wow{left:-14px}
+.in_pro_zone .pro3 .pic .wow img{width:300px;height:217px}
+.in_news_box .pic h2{ font-size:16px}
+.in_news_box .info h2{ font-size:18px}
+.in_news_box .info h4{ font-size:16px}
+.in_news_box .info{ font-size:13px}
+.in_pro_zone .pro2 .info{padding-left:20px}
+.in_about li.ab_info h2, .in_pro_zone h2{ font-size:22px}
+.in_pro_zone h2{margin-bottom:20px}
+}
+
+@media  (max-width : 400px) {
+.in_news_box .pic , .in_news_box .info{width:100%; float:none;margin-bottom:20px}
+.in_news_box{width:80%}
+.in_about{margin-top:0}
+.in_pro_zone{width:95%}
+.in_pro_zone .pro1 .info, .in_pro_zone .pro2 .info, .in_pro_zone .pro3 .info, .in_pro_zone .pro1 .pic, .in_pro_zone .pro2 .pic, .in_pro_zone .pro3 .pic{height:200px}
+.in_pro_zone .pro1 .pic .wow img{width:210px;height:203px}
+.in_pro_zone .pro2 .pic .wow img { width: 240px;height: 189px;}
+.in_pro_zone .pro3 .pic .wow img { width: 260px;height: 188px;}
+.in_pro_zone .pro1 .info, .in_pro_zone .pro2 .info, .in_pro_zone .pro3 .info{padding:20px 15px}
+	.in_pro_zone .pro1 .pic .wow {
+    right: 69px;
+    top: -3px;
+}
+	.in_pro_zone .pro2 .pic .wow {
+    right: 0;
+    left: 31px;
+    top: 11px;
+}
+}

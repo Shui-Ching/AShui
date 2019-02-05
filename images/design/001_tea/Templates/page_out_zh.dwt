@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<meta name="keywords" content="" />  
+<meta name="description" content="" />
+<title>拾覺</title>
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="../images/ico.png" type="image/x-icon" >
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../font/font.css">
+<link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../css/justVector.css">
+<link rel="stylesheet" type="text/css" href="../Scripts/slidebars.css">
+<link rel="stylesheet" type="text/css" href="../css/slidebars.css">
+<link rel="stylesheet" href="../css/animate.min.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../Scripts/flexslider/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="../Scripts/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="../Scripts/slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="../Scripts/magnific-popup.css">
+<!-- TemplateBeginEditable name="css" -->
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<!-- TemplateBeginEditable name="head" -->
+
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+<script src="../Scripts/translator.min.js"></script>
+
+
+</head>
+<body> 
+
+<div id="container" class="sb-site-container">
+	<div id="header" class="header">
+    	<div class="wrap">
+         <div class="mob_btn">
+        	<div class="sb-open-left sb-btn1" >
+				<i class="fa fa-bars" aria-hidden="true"></i><span>選單</span>
+			</div>
+            <div class="sb-open-left sb-btn2" >
+				<i class="fa fa-tags" aria-hidden="true"></i><span>飲品介紹</span>
+			</div>
+            </div>
+            <div class="logo">
+            <a href="../index.html"><img src="../images/logo.svg" alt=""/></a></div>
+            <div id="nav">
+            	<ul>        
+                		
+					
+                	<li class="btn1"><a href="../zh/about.html">關於拾覺</a></li>
+                    <li class="btn2"><a href="../zh/product.html">飲品介紹</a></li>
+                    <li class="btn3"><a href="../zh/news.html">最新消息 </a></li>
+                    <li class="btn4"><a href="../zh/food.html">研選食材</a></li>
+					<li class="btn5"><a href="../zh/store.html">門市專區</a></li>
+                    <li class="btn6"><a href="../zh/join.html">加盟專區</a></li>
+                   <li><div class="lang">
+                   
+				<select name="" id="" class="langSwitch resSelect ">
+                   
+                    <option value="tw" selected="selected">繁體中文</option>
+					<!-- <option value="en">English</option>-->
+					<!--<option value="cn">簡体中文</option> -->
+				</select>
+                
+			</div></li>
+					<li class="head_smo"><a href="http://www.facebook.com/purefudrink" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+            </div>
+            <div class="lang lang2">
+				<select name="" id="" class="langSwitch resSelect">
+                   
+                    <option value="tw" selected="selected">繁體中文</option>
+					 <!--<option value="en">English</option>-->
+					<!--<option value="cn">簡体中文</option> -->
+				</select>
+			</div>
+        </div>
+    </div>
+	<!-- TemplateBeginEditable name="banner" -->
+	<div id="index_banner" class="slider">
+	  <div class="flexslider">
+	    <ul class="slides">
+	      <li class="banner1"> <img src="../images/comm/ban1.jpg"  alt=""/> </li>
+	      <li class="banner2"> <img src="../images/comm/ban2.jpg"  alt=""/> </li>
+	      <li class="banner3"> <img src="../images/comm/ban3.jpg"  alt=""/> </li>
+        </ul>
+      </div>
+    </div>
+	<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="main" -->
+  <div class="main"></div>
+  <!-- TemplateEndEditable -->
+  <div id="gotop"> <i class="fa fa-angle-up"></i> </div>
+    <div class="footer clearfix wow">
+      <div class="wrap clearfix">
+        <div class="ft_nav1">
+          <ul>
+            <li><a href="about.html">關於拾覺</a></li>
+           <li><a href="news.html">最新消息</a></li>
+           <li><a href="food.html">研選食材</a></li>
+		   <li><a href="store.html">門市專區</a></li>
+           <li><a href="join.html">加盟專區</a></li>
+          </ul>
+        </div>
+        <div class="ft_nav2">
+          <ul>
+           <li><a href="product.html">飲品介紹</a>
+             <ul>
+               <li><a href="series1.html">拾採原萃茶</a></li>
+              <li><a href="series2.html">回甘現泡茶</a></li>
+              <li><a href="series3.html">繽紛嚼果粒</a></li>
+              <li><a href="series4.html">迴韻濃醇香</a></li>
+              <li><a href="series5.html">雲朵純鮮奶</a></li>
+			  <li><a href="series6.html">青檸果茶事</a></li>
+			  <li><a href="series7.html">復刻柴燒拾光</a></li>
+			  <li><a href="series8.html">經典暖冬熱飲</a></li>
+             </ul>
+           </li>
+           
+          </ul>
+        </div>
+ 
+		  
+		  <div class="qr">
+			  <ul>
+				  <li>  <img src="../images/qr_code.jpg" alt=""/></li>
+			  </ul>
+		 </div>
+		  
+		  
+        <div class="ft_contact">
+            <h2>拾覺總部</h2>
+			
+
+ 
+
+         <!-- <div class="add">412-76 台中市.大里區.成功路.520號2F</div>-->
+ <ul>
+ <li>服務電話：(04)2493-0777 </li>
+ <li>加盟專線：(04)2493-0777</li>
+	 <li class="newmail">聯絡信箱：<a href="mailto:justen@justentea.com">justen@justentea.com</a></li>
+ </ul>
+ <div id="smo" class="clearfix">
+                            <a href=
+                            "javascript:%20void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href))%20));"
+                            title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href=
+                            "javascript:%20void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title))%20.concat('%20')%20.concat(encodeURIComponent(location.href))));"
+                            title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href=
+                            "javascript:%20void(window.open('http://www.plurk.com/?qualifier=shares&amp;status='%20.concat(encodeURIComponent(location.href))%20.concat('%20')%20.concat('(')%20.concat(encodeURIComponent(document.title))%20.concat(')')));"
+                            title="Plurk"><i class="jv-plurk"></i></a> <a href=
+                            "http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.siamcomm.com&amp;title=The%20title%20of%20the%20page%20or%20post&amp;summary=&amp;source=Siam-Communications"
+                            target="_new"><i class="jv-linkedin"></i></a>
+                            <a href=
+                            "javascript:%20void(window.open('https://plus.google.com/share?url='.concat(encodeURIComponent%20(location.href)),%20'',%20'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'));">
+                            <i class="fa fa-google-plus"></i></a> 
+        </div> 
+      </div>
+      
+    </div>
+    <div class="ft_link clearfix">
+    <div class="wrap clearfix">
+     <div class="copyright">Copyright © 三旬國際餐飲有限公司.</div>
+     <div class="designed"> Designed by 
+              <a href="https://www.gtmc.com.tw/" target="_blank">GTMC</a>
+	<a href="http://www.manufacture.com.tw/" target="_blank">Taiwan Products</a>  |  <a href="http://www.manufacturers.com.tw/" target="_blank">B2BManufactures</a>  |  <a href="http://www.b2bchinasources.com/" target="_blank">B2BChinaSources</a>
+ 	</div>
+</div>
+    </div>
+</div>
+
+<div class="sb-slidebar sb-left">
+	<div class="sb-close">
+    <img src="../images/comm/close1.png" alt=""/></div>
+	<!-- Your left Slidebar content. -->
+    <div class="slidebar-1">
+    <h2>選單</h2>
+   </div>
+    <div class="slidebar-2">
+    </div>
+    
+</div>
+  
+
+<!--[if lt IE 9]>
+<script src="http://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js" type="text/javascript"></script>
+<![endif]-->
+
+<script src="../Scripts/slidebars.min.js"></script>
+<script src="../Scripts/headhesive.min.js"></script>
+<script src="../Scripts/flexslider/jquery.flexslider.js"></script>
+<script src="../Scripts/wow.min.js"></script>
+<script src="../Scripts/slick/slick.min.js"></script>
+<script src="../Scripts/jquery.magnific-popup.js"></script>
+
+<!-- TemplateBeginEditable name="jq" -->
+
+<!-- TemplateEndEditable --> 
+
+<script src="../Scripts/effect-design.js"></script>
+<script src="../Scripts/translator_cus.js"></script>
+<!-- TemplateBeginEditable name="js" -->
+
+<!-- TemplateEndEditable -->
+
+
+</body>
+</html>
