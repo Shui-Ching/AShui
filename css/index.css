@@ -4,3 +4,4 @@
 #banner h2{text-align: center;font-size: 14px;color: #a0a0a0}
 #banner h2 span{font-weight: bold;color: #242424}
 .fade img{ margin: 0 auto}
+.slick-slide, .slick-slide.slick-active{outline:none}
