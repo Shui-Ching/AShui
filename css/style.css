@@ -257,7 +257,7 @@ div#note_list li{width: 50%;}
 @media screen and (max-width : 500px) {
 /*story*/
 .story_left_pic { width: 100%;}	
-.story_right_word {width: 100%;padding: 10px 0;text-align: left;}	
+.story_right_word {width: 100%;padding: 10px 2%;text-align: left;}	
 /*note*/
 div#note_list li{width: 100%;}
 
