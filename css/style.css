@@ -83,7 +83,7 @@ div#about_history {margin-top: 15px;}
 .year{font-size: 20px;text-align: center;padding: 20px 0}
 
 /*design*/
-#design_list li{float: left;width: 33.3%;text-align: center}
+#design_list li{float: left;width: 33.3%;text-align: center;margin-bottom: 20px;}
 #design_list ul{overflow: hidden}
 #design_list h2{font-size: 16px;}
 .employed_by{color: #a0a0a0}
