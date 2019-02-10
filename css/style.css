@@ -92,6 +92,10 @@ div#about_history {margin-top: 15px;}
 .back_btn a:hover{color: #242424;transition: all 0.5s ease-in-out}
 figure.snip1572 {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.2);}
 .web_case {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.2);}
+.banner_top{margin-top: 20px}
+.banner_top .slick-slide {box-shadow: 0px 0px 12px -2px rgba(0%,0%,0%,0.2);margin-bottom: 20px;}
+
+
 /*design hover*/
 .snip1572 {position: relative;display: inline-block;overflow: hidden; /*margin: 10px;*/min-width: 230px;max-width: 315px;width: 100%; color: #000000;text-align: left;font-size: 16px; background: #ffffff;}
 .snip1572 *, .snip1572:before, .snip1572:after {-webkit-box-sizing: border-box;box-sizing: border-box;-webkit-transition: all 0.4s ease;transition: all 0.4s ease;}
